@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Phantom Group</title>
+</head>
+<body>
+<!--------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------->
+<div class="container">
+    <!--structure d'entete-->
+    <nav class="entete">
+    <!-- Logo Phantom Group -->
+        <div class="logo">
+            <span>Ten</span>
+            <span>e</span>
+            <span>zus</span>
+        </div>
+    <!-- Menu de Navigation -->
+        <div class="menu">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Competence</a>
+            </li>
+            <li>
+                <a href="#">Blog</a>
+            </li>
+        </div>
+    <!--Connexion differents reseaux Linkdin|instagram|facebook|whatsapp-->
+        <div class="network">
+            <a href="#">
+                <img width="30" height="30" src="assets/facebook.png"/>
+            </a>
+            <a href="#">
+                <img width="30" height="30" src="assets/instagram.png"/>
+            </a>
+            <a href="#">
+                <img width="30" height="30" src="assets/twitter (1).png"/>
+            </a>
+            <a href="https://www.youtube.com/@EssowassamJunior">
+                <img width="30" height="30" src="assets/youtube.png"/>
+            </a>
+
+        </div>
+    </nav>
+    <!---------------------------------------------------------------->
+    <div class="corps">
+        <div class="gauche">
+            <span id="ln">Hello World!</span>
+            <div class="taper1">
+                <span id="li">Je suis </span><span id="elo">  </span>
+            </div>
+            <p class="paragraph" >
+            </p>
+            <button class="btn1">
+                <a href="t1.pdf">
+                    Download CV
+                </a>
+            </button>
+            <button class="btn2">
+                Ready!
+            </button>
+        </div>
+<!------------------------------------------------------------------------------------------>
+        <div class="droite">
+            <div class="groupImage">
+                <img id="rocket" alt="rocket launcher" src="assets/rocket.png"/>
+                <img id="fortune" alt="BITHO Fortune" src="assets/man.png"/>
+                <div class="boucing"></div>
+                <div class="flor"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------------------------grand div------------------------------------------->
+     <!--------------------------------------------------------------------------------->
+<script src="typed/dist/typed.umd.js"></script>
+<script class="type1" >
+    var typed = new Typed('#elo', {
+        strings: ['BITHO Fortuné', 'CEO de Makeba',"entrepreneur dans l'agroalimentaire", "Manager de Startup", "youtuber"],
+        typeSpeed: 100,
+        backSpeed:100,
+        backDelay:2000,
+        loop:1,
+        cursor: 100
+    });
+</script>
+<script>
+
+    var typed = new Typed('.paragraph', {
+        strings: ["Je  suis  BITHO  Fortuné,  CEO  de  Makeba  Group, entrepreneur  dans l 'ago-alimentaire Manager  de  startup,  Youtubeur,  Beau  Gars."],
+        typeSpeed: 100,
+        backDelay:2000,
+        cursor: 100
+    });
+</script>
+</body>
+</html>
